@@ -1,6 +1,6 @@
 {
   "name": "@tubeagentkit/cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Command line for the GetYouTubeTranscript API: get a YouTube video transcript, search YouTube, and list channel videos from your terminal.",
   "keywords": ["youtube", "transcript", "captions", "subtitles", "cli", "youtube-transcript", "video-search", "channel", "api"],
   "homepage": "https://getyoutubetranscript.com",
