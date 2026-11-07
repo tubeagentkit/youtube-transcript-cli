@@ -1,0 +1,17 @@
+{
+  "name": "@tubeagentkit/cli",
+  "version": "0.1.0",
+  "description": "Command line for the GetYouTubeTranscript API: get a YouTube video transcript, search YouTube, and list channel videos from your terminal.",
+  "keywords": ["youtube", "transcript", "captions", "subtitles", "cli", "youtube-transcript", "video-search", "channel", "api"],
+  "homepage": "https://getyoutubetranscript.com",
+  "repository": { "type": "git", "url": "git+https://github.com/tubeagentkit/youtube-transcript-cli.git" },
+  "bugs": { "url": "https://github.com/tubeagentkit/youtube-transcript-cli/issues" },
+  "license": "MIT",
+  "author": "TubeAgentKit <https://getyoutubetranscript.com>",
+  "type": "module",
+  "bin": { "gyt": "./bin/gyt.mjs" },
+  "files": ["bin", "src", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test test/*.test.mjs" },
+  "dependencies": { "@tubeagentkit/getyoutubetranscript": "^0.4.0" }
+}
